@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9c4297c-5bc8-471b-bd73-c6301cd4136e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/About.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/CategoriaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/CategoriaList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/ClienteList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/ConexaoBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/InserirCategoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/InserirCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/InserirProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/InserirVendas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/ProdutosList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/Vendas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/VendasDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/VendasList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/about.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/categoriaList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/clienteList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/inserirCategoria.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/inserirCliente.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/inserirProdutos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/inserirVendas.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/principal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/produtosList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projeto_final/projeto_final_gestao/vendasList.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fuEQQxvMAhA9r06OapfPqi6AdE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/João Figueiredo/Documents/modulo 19/Projeto Final/Projeto_Final_Gestao/src/main/java/com/example/projeto_final/projeto_final_gestao",
+    "last_opened_file_path": "C:/Users/João Figueiredo/Documents/modulo 19/Projeto Final/Projeto_Final_Joao_Figueiredo_08/Projeto_Final_Gestao",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.39310345"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.projeto_final.projeto_final_gestao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\João Figueiredo\Documents\modulo 19\Projeto Final\Projeto_Final_Gestao\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.projeto_final.projeto_final_gestao.MainApp" />
+      <module name="Projeto_Final_Gestao" />
+      <option name="PROGRAM_PARAMETERS" value="--module-path C:\Program Files\Java\javafx-sdk-21.0.3\lib --add-modules=javafx.controls" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9c4297c-5bc8-471b-bd73-c6301cd4136e" name="Changes" comment="" />
+      <created>1714642549822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714642549822</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/Produto.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/Settings.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/ClienteList.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/projeto_final/projeto_final_gestao/InserirProduto.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

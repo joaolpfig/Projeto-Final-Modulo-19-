@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="432.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projeto_final.projeto_final_gestao.ClienteList">
+   <children>
+      <Label layoutX="200.0" layoutY="58.0" text="Lista de Clientes" textFill="#002bff">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableviewClientes" layoutX="58.0" layoutY="94.0" prefHeight="245.0" prefWidth="517.0">
+        <columns>
+          <TableColumn fx:id="tableColumnIdCliente" prefWidth="63.0" text="ID" />
+            <TableColumn fx:id="tableColumnNome" prefWidth="110.0" text="Nome" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="151.0" text="Email" />
+            <TableColumn fx:id="tableColumnNumTelefone" prefWidth="217.0" text="NumeroTelefone" />
+        </columns>
+      </TableView>
+      <Button layoutX="58.0" layoutY="352.0" mnemonicParsing="false" onAction="#ButtonInserirCliente" prefHeight="39.0" prefWidth="94.0" text="Inserir" textFill="#002bff">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="550.0" layoutY="26.0" mnemonicParsing="false" onAction="#ButtonClose" text="Fechar" textFill="#002bff">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="269.0" layoutY="352.0" mnemonicParsing="false" onAction="#ButtonEditarCliente" prefHeight="39.0" prefWidth="94.0" text="Editar" textFill="#002bff">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="482.0" layoutY="352.0" mnemonicParsing="false" onAction="#ButtonRemoverCliente" prefHeight="39.0" prefWidth="94.0" text="Remover" textFill="#002bff">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

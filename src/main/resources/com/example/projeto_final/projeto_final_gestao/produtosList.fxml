@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="432.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projeto_final.projeto_final_gestao.ProdutosList">
+   <children>
+      <Label layoutX="201.0" layoutY="47.0" prefHeight="35.0" prefWidth="230.0" text="Lista de Produtos" textFill="RED">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableviewProdutos" layoutX="58.0" layoutY="94.0" prefHeight="245.0" prefWidth="517.0">
+         <columns>
+            <TableColumn fx:id="tableColumnIdProduto" prefWidth="63.0" text="ID" />
+            <TableColumn fx:id="tableColumnNome" minWidth="0.0" prefWidth="142.0" text="Nome" />
+            <TableColumn fx:id="tableColumnPreco" prefWidth="127.0" text="Preco" />
+            <TableColumn fx:id="tableColumnTamanho" minWidth="0.0" prefWidth="97.0" text="Tamanho" />
+            <TableColumn fx:id="tableColumnQuantidade" prefWidth="86.0" text="Quantidade" />
+         </columns>
+      </TableView>
+      <Button layoutX="58.0" layoutY="348.0" mnemonicParsing="false" onAction="#ButtonInserirProdutos" prefHeight="39.0" prefWidth="94.0" text="Inserir" textFill="RED">
+         <font>
+            <Font name="Eras Bold ITC" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="269.0" layoutY="348.0" mnemonicParsing="false" onAction="#ButtonEditarProdutos" prefHeight="39.0" prefWidth="94.0" text="Editar" textFill="RED">
+         <font>
+            <Font name="Eras Bold ITC" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="481.0" layoutY="348.0" mnemonicParsing="false" onAction="#ButtonRemoverProdutos" prefHeight="39.0" prefWidth="94.0" text="Remover" textFill="RED">
+         <font>
+            <Font name="Eras Bold ITC" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="542.0" layoutY="25.0" mnemonicParsing="false" onAction="#ButtonClose" text="Fechar" textFill="RED">
+         <font>
+            <Font name="Eras Bold ITC" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

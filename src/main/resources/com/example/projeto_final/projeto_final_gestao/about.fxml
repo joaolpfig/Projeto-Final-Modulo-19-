@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="665.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projeto_final.projeto_final_gestao.About">
+   <children>
+      <Label layoutX="14.0" layoutY="40.0" text="Escola Secundária Ferreira Dias" textFill="RED">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="97.0" prefHeight="44.0" prefWidth="493.0" text="Técnico de Gestão e Programação de Sistemas Informaticos" textFill="#9900ff">
+         <font>
+            <Font name="Cambria Math" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="163.0" prefHeight="44.0" prefWidth="330.0" text=" Módulo 19 - Projeto Final" textFill="#0fff07">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="326.0" prefHeight="67.0" prefWidth="369.0" text="Desenvolvido por: João Figueiredo  N8" textFill="#ff0887">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
